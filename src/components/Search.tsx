@@ -7,7 +7,8 @@ const headers = new Headers();
         headers
       }
 
-const API_KEY='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'
+const API_KEY=process.env.REACT_APP_OPEN_AI_API_KEY
+
 
 const openAiUrl = "https://api.openai.com/v1/completions"
 
